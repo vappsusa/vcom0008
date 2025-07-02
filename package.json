@@ -1,0 +1,41 @@
+{
+  "name": "verdict-com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate": "npm run type-check && npm run lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.3.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@clerk/nextjs": "6.11.0",
+    "@supabase/supabase-js": "2.48.0",
+    "@supabase/ssr": "0.6.0",
+    "ai": "5.0.0",
+    "@ai-sdk/openai": "0.0.77",
+    "zod": "3.24.1",
+    "framer-motion": "11.15.0",
+    "lucide-react": "0.469.0",
+    "sonner": "1.7.2",
+    "clsx": "2.1.1",
+    "tailwind-merge": "2.7.0",
+    "class-variance-authority": "0.7.1"
+  },
+  "devDependencies": {
+    "typescript": "5.8.0",
+    "@types/react": "19.0.0",
+    "@types/node": "22.10.0",
+    "tailwindcss": "4.1.0",
+    "eslint": "^9.30.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
