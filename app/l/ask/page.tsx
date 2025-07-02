@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { AlertCircle, Sparkles } from "lucide-react"
+import { QuestionFormDemo } from "@/components/legal/question-form-demo"
 
 export default function AskQuestionPage() {
   // Mock categories for demo
@@ -96,9 +97,7 @@ export default function AskQuestionPage() {
             </CardContent>
             <CardFooter className="flex justify-between">
               <Button variant="outline">Save as Draft</Button>
-              <Button size="lg" className="ml-auto">
-                Submit Question
-              </Button>
+              <QuestionFormDemo />
             </CardFooter>
           </Card>
         </div>
