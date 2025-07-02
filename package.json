@@ -36,6 +36,7 @@
     "@typescript-eslint/parser": "^8.20.0",
     "@typescript-eslint/eslint-plugin": "^8.20.0",
     "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16"
+    "autoprefixer": "^10.4.16",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
